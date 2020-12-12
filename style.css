@@ -1,0 +1,54 @@
+body{
+    /*background: black;*/
+    background-image: url("fondo.jpg");
+    background-size: cover;
+}
+.container{
+    text-align: center;
+    color: white;
+}
+.house{
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+}
+.house-1{
+    background-image: url("stark.jpg");
+    background-size: cover;
+    width:300px;
+    height: 200px;
+}
+.house-2{
+    background-image: url("targaryen.jpg");
+    background-size: cover;
+    width:300px;
+    height: 200px;
+}
+.house-3{
+    background-image: url("lannister.jpg");
+    background-size: cover;
+    width:300px;
+    height: 200px;
+}
+.house-4{
+    background-image: url("baratheon.png");
+    background-size: cover;
+    width:300px;
+    height: 200px;
+}
+fieldset{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 3px;
+    border-style: double 5px;
+    background-color: black;
+    color: white;
+}
+span{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(131, 125, 128);
+}
